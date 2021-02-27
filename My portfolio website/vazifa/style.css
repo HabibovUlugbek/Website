@@ -1,0 +1,120 @@
+html{
+    box-sizing: border-box;
+}
+*, *::after,* before{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    /* color: #222222; */
+    background: url(../img/6.jpg) no-repeat center top fixed / cover;
+}
+p,div{
+    margin: 0;
+    padding: 0;
+}
+.cf::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+.main{
+    width: 100%;
+    height: 680px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td, th{
+    text-align: center;
+    border: 1px solid black;
+}
+tr td:first-child{
+     border-left: 4px solid #222222;
+     border-right:  4px solid #222222;
+}
+tr th{
+    border-top: 4px solid #222222;
+    border-bottom: 4px solid #222222;
+    width: 80px;
+    height: 80px;
+}
+tr th:first-child{
+    border-left: 4px solid #222222;
+     border-right:  4px solid #222222;
+}
+td{
+    width: 80px;
+    height: 100px;
+}
+.group{
+    font-size: 2rem;
+}
+.university{
+    text-align: left;
+    font-size: .9rem;
+}
+
+.number{
+    font-size: 1.1rem;
+}
+.clock{
+    font-size: .8rem;
+    vertical-align: bottom;
+    font-weight: 300;
+}
+.days{
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.left{
+    position: absolute;
+    font-size: .8rem;
+    left: 5px;
+    bottom: 0;
+}
+.right{
+    position: absolute;
+    font-size: .8rem;
+    right: 5px;
+    bottom: 0;
+}
+
+.green{    background-color: lightgreen;}
+.light-blue{    background-color: lightblue;}
+.grey{    background-color: gainsboro;}
+.greyy{    background-color: beige;}
+.pink{    background-color: pink;}
+.red{    background-color: red;}
+.aqua{    background-color: aqua;}
+.orange{    background-color: #FF9800;}
+.lightgreen{background-color: chartreuse;}
+
+.border{
+    position: relative;
+}
+.inside{
+    position: absolute;
+    top: 0;
+    left: 0;
+    vertical-align: 50%;
+    width: 79px;
+    height: 50%; 
+    border-bottom: 1px solid #222222;
+}
+.insidetwo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    vertical-align: 50%;
+    width: 159px;
+    height: 50%; 
+    border-bottom: 1px solid #222222;
+}
